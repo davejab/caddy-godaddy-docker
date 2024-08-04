@@ -1,0 +1,11 @@
+# this file is generated with gomplate:
+# template: https://github.com/davejab/caddy-godaddy-docker/blob/c97f6cc06e70000530f1a65762722dccdffd67c9/caddy-godaddy.tmpl
+# config context: https://github.com/davejab/caddy-godaddy-docker/blob/c97f6cc06e70000530f1a65762722dccdffd67c9/config.yml
+Maintainers: davejab (@davejab)
+
+Tags: 2.8.4-alpine, 2.8-alpine, 2-alpine, alpine
+SharedTags: 2.8.4, 2.8, 2, latest
+GitRepo: https://github.com/davejab/caddy-godaddy-docker.git
+Directory: 2.8/alpine
+GitCommit: c97f6cc06e70000530f1a65762722dccdffd67c9
+Architectures: amd64
