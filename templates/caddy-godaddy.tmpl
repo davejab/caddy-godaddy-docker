@@ -1,6 +1,7 @@
 # this file is generated with gomplate:
 # template: https://github.com/davejab/caddy-godaddy-docker/blob/{{ fileCommit "templates/caddy-godaddy.tmpl"}}/caddy-godaddy.tmpl
 # config context: https://github.com/davejab/caddy-godaddy-docker/blob/{{ fileCommit "config.yml"}}/config.yml
+Maintainers: davejab (@davejab)
 {{ range $version := .config.versions }}
 {{- $minor := $version.caddy_version | regexp.Replace `([0-9]+\.[0-9]+).*$` `$1` }}
 {{- $major := $minor | regexp.Replace `([0-9]+).*$` `$1` }}
