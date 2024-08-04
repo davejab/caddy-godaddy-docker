@@ -1,0 +1,9 @@
+FROM caddy:{{ .config.caddy_version }}-builder AS builder
+
+RUN xcaddy build \
+    --with github.com/mholt/caddy-dynamicdns \
+    --with github.com/caddy-dns/godaddy
+
+FROM caddy:{{ .config.caddy_version }}
+
+COPY --from=builder /usr/bin/caddy /usr/bin/caddy
