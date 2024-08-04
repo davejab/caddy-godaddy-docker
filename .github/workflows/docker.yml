@@ -12,7 +12,7 @@ jobs:
       image: hairyhenderson/dockerfiles-builder:latest
     env:
       BASHBREW_LIBRARY: ./library
-      BASHBREW_NAMESPACE: caddy-godaddy
+      BASHBREW_NAMESPACE: davejabra
       DOCKER_BUILDKIT: '1'
     steps:
       - uses: actions/checkout@master
