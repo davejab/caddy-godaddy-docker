@@ -7,3 +7,4 @@ variants:
     tags: [ "alpine" ]
     shared_tags: [ "latest" ]
     architectures: [ amd64 ]
+    
